@@ -1,10 +1,12 @@
 export default function Home() {
-    return (
+  return (
     <main>
-        <h2>Home Page</h2>
-        <p>
-            React Router sllows us to have multiple pages in our SPA (Single Page Application)
-        </p>
-     </main>   
-    );
+      <h2>Home Page</h2>
+      <p>
+        {" "}
+        React Router allows us to have multiple pages in our SPA (Single Page
+        Application){" "}
+      </p>
+    </main>
+  );
 }
